@@ -350,12 +350,7 @@ public class Principal {
     
     public static void main(String[] args) {
         System.out.print("Bem-Vindo(a) ao seu Gerenciador de Cofrinho!\n" +
-                         "    Powered by Italo Bastos\n");
-        
-        objCofrinho.adicionar(new Real(0.1));
-        objCofrinho.adicionar(new Real(0.1));
-        objCofrinho.adicionar(new Dolar(0.25));
-        objCofrinho.adicionar(new Dolar(1));
+                         "    Powered by Italo Bastos\n")
         
         int opcaoMain;
         while(true) {
